@@ -1,0 +1,11 @@
+# Datensatz-Config für das YOLO-Training (Roboflow-Export: data/labeled)
+# Ohne "path" löst Ultralytics die Pfade relativ zu diesem Ordner (configs/) auf.
+train: ../data/labeled/train/images
+val: ../data/labeled/valid/images
+test: ../data/labeled/test/images
+
+names:
+  0: clipper
+  1: marker
+  2: tape
+  3: tweezer

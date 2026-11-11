@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['clipper', 'marker', 'tape', 'tweezer']
+
+roboflow:
+  workspace: jannis-workspace
+  project: lerobot-uqn6r
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/jannis-workspace/lerobot-uqn6r/1

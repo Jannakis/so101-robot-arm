@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Ultralytics: Trainingsläufe und Caches (ausgewählte Ergebnisse sind mit `git add -f` eingecheckt)
+runs/
+*.cache
+*.log
+# Vortrainierte Gewichte lädt Ultralytics beim ersten Training selbst herunter
+so101-vision/yolo26n.pt
+
+# Lokale Backups
+so101-vision/data/labeled_backup_*/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
