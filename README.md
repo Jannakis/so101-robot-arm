@@ -17,8 +17,19 @@ Fotos → Annotation (Roboflow) → Training (YOLO26n, CPU) → Erkennung → Pi
 | Datensatz aufnehmen und annotieren | ✅ 71 Bilder, 4 Klassen |
 | Objekterkennung trainieren | ✅ Test mAP50-95 = 0,82 |
 | Pixel → Brett-Koordinaten | ✅ Reprojektionsfehler 1,5 px |
+| Servos einrichten und Arm kalibrieren | ✅ Follower-Arm |
 | Brett → Roboter-Koordinaten | ⏳ |
 | Greifen mit dem SO-101 | ⏳ |
+
+## Hardware
+
+SO-101 Follower-Arm mit 6 Feetech-STS3215-Servos (5 Gelenke + Greifer). Die Servos sind mit LeRobot
+eingerichtet (IDs 1–6) und kalibriert.
+
+<p>
+  <img src="docs/so101_arm_folded.jpg" width="45%" alt="SO-101 in Ruheposition">
+  <img src="docs/so101_arm_raised.jpg" width="45%" alt="SO-101 aufgerichtet mit geöffnetem Greifer">
+</p>
 
 ## Datensatz
 
